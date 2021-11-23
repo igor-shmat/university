@@ -1,0 +1,21 @@
+### student
+POST http://localhost:8080/student/search
+Content-Type: application/json
+
+{"studentFio":"Ivan2 Ivanovich", "date": "2021-11-24"}
+
+###
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{"fio":"новый"}
+
+### course
+POST http://localhost:8080/course/add
+Content-Type: application/json
+
+{"name":"новый урок","cabinet": 221}
+
+###
+GET http://localhost:8080/course/getAll
+Content-Type: application/json
